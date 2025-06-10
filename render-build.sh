@@ -1,6 +1,9 @@
 #!/bin/bash
 
 # install chrome
+pip install flask
+pip install gunicorn
+pip install selenium
 apt-get update
 apt-get install -y wget unzip
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
